@@ -1,0 +1,57 @@
+#TopImg{
+  position: relative;
+  background: black;
+  min-height: 500px;
+  height: 100vh;
+  background: linear-gradient(135deg,rgba(0,0,0,.3) 0,#fff 100%);
+background-image: linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url('https://images.pexels.com/photos/219095/pexels-photo-219095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+background-position: center;
+background-size: cover;
+}
+
+#TopImg .title{
+  padding: 200px 0 80px;
+  text-align: right;
+  text-shadow: 2px 2px 6px $red
+}
+#TopImg .title h1 {
+  font-family: $displayFont;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+
+#TopImg .title h5{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+}
+
+#TopImg .contact-info {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  text-align: right;
+  color: $paragraphColor;
+  font-size: .8rem;
+  line-height: 1.5rem;
+}
+
+#TopImg .contact-info strong{
+  font-weight: bold;
+  color: white;
+}
+
+#TopImg .contact-info .booking{
+  margin-bottom: 10px;
+  color: $paragraphColor;
+}
+
+#TopImg .contact-info h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}

@@ -1,0 +1,41 @@
+#OurStory{
+padding: 100px 0;
+background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+
+ .quote{
+  color: $paragraphColor;
+  margin: .5rem 0 3rem;
+
+
+  strong {
+    color: $black;
+  font-weight: 700;
+  }
+}
+.reserve-btn{
+ display: inline-block;
+padding: 20px 40px;
+// min-width: 200px;
+border: 1px solid $black;
+text-align: center;
+text-decoration: none;
+color: $black;
+text-transform: uppercase;
+transition: all .3s ease-in-out;
+
+&:hover{
+  background: $red;
+  color: white;
+}
+}
+.video-img{
+  max-width: 400px;
+  height: 550px;
+  background: linear-gradient(135deg,rgba(0,0,0,0.2) 0,#fff 100%);
+  background-image: linear-gradient(135deg,rgba(0,0,0,0.2) 0,#000 100%),url('https://previews.123rf.com/images/denizo71/denizo711505/denizo71150500243/41133266-closeup-hand-of-chef-baker-in-white-uniform-making-pizza-at-kitchen.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+}

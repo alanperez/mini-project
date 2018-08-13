@@ -1,0 +1,17 @@
+// Grid System
+$grid-columns: 12;
+$grid-max-width: 1200px; //breakpoint-small
+$breakpoint-xs: "only screen and (min-width: 0px)";
+$breakpoint-small: "only screen and (min-width: 451px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1008px)";
+$breakpoint-xl: "only screen and (min-width: 1300px)";
+$textFont: 'PT Sans', sans-serif;
+$displayFont: 'Crete Round', serif;
+$titleColor: #AAAAAA;
+$paragraphColor: #ADADAD;
+$greyBG: #F7F7F7;
+$footerBG: #221313;
+$black: #202020;
+$red: #911A20;
+$green: #4D6010;

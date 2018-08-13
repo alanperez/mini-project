@@ -1,0 +1,61 @@
+body{
+  color: $black;
+}
+
+h2 {
+  font-family: $displayFont;
+ font-size: 3rem;
+  margin: .5rem 0 3rem;
+ text-transform: capitalize;
+ color: $black;
+}
+
+h5 {
+  font-family: $textFont;
+ color: $red;
+ font-size: .75rem;
+ margin: .5rem 0 1rem;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ font-weight: 700;
+}
+
+ p {
+ font-size: 1.1rem;
+ color: $paragraphColor;
+ line-height: 1.8;
+ margin: .5rem 0 3rem;
+ font-weight: 300;
+}
+
+a{
+  transition: all .4s ease-in-out;
+  &:hover{
+    color:$red;
+  }
+}
+
+.texturebg   {
+  background: $greyBG;
+  background-image: url("https://img.elo7.com.br/product/zoom/15D3DB6/papel-parede-adesivo-ingredientes-pizza-decoracao-pizzaria-em-casa.jpg");
+  // background: -webkit-linear-gradient(top left, rgba(0,0,0,.2) 0%, #fff 100%);
+  // background: -o-linear-gradient(top left, rgba(0,0,0,.2) 0%, #fff 100%);
+  // background: linear-gradient(to bottom right, rgba(0,0,0,.2) 0%, #fff 100%);
+  // background-image: url('https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  background-position: center;
+  // background-size: cover;
+  background-repeat: repeat;
+}
+
+.contactbg{
+  // background: $greyBG;
+  // background-image: url("https://hookagency.com/wp-content/uploads/2015/11/subtle-gray-gradient-light-white-gradient.jpg");
+  // // background: -webkit-linear-gradient(top left, rgba(0,0,0,.2) 0%, #fff 100%);
+  // // background: -o-linear-gradient(top left, rgba(0,0,0,.2) 0%, #fff 100%);
+  // // background: linear-gradient(to bottom right, rgba(0,0,0,.2) 0%, #fff 100%);
+  // // background-image: url('https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  // background-position: center;
+  // // background-size: cover;
+  // background-repeat: repeat;
+  // // background-repeat: repeat;
+}

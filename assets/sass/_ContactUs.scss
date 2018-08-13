@@ -1,0 +1,41 @@
+#ContactUs {
+  padding: 100px 0;
+  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+   background-blend-mode: screen;
+  h2,h5 {
+    text-align: center;
+  }
+
+  .box{
+    padding: 70px;
+    background: white;
+    .title {
+      font-family: $displayFont;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    h6 {
+      font-size: .9rem;
+      font-weight: 600;
+      color: $black;
+      line-height: 1.7rem;
+    }
+    p {
+      font-weight: 400;
+      margin-bottom: 20px;
+      strong{
+        color: $black;
+        text-transform: capitalize;
+        font-weight: 600;
+      }
+      a{
+        color: $paragraphColor;
+        text-decoration: none;
+        &:hover{
+          color: $red;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
